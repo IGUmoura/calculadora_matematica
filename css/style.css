@@ -1,5 +1,5 @@
 *{
-    font-size: 12 pt;
+    font-size: 12 px;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -40,11 +40,43 @@
     font-size: 1.5rem;
 }
 
+#interface table #painel {
+    width: 100%;
+    margin-block-end: 5px;
+    padding: .25rem;
+    border: 1px solid #999;
+    border-radius: 5px;
+    background-color: #c1c1c1;
+}
+
+#interface table #painel #txt_operadores{
+    display: block;
+    width: 100%;
+    text-align: right;
+    font-size: .8rem;
+    color: #222;
+}
+
+#interface table #painel #txt_display {
+    display: block;
+    width: 100%;
+    text-align: right;
+    font-size: 1.2rem;
+    color: #222;
+}
+
 #interface table #bt-acce {
     font-size: .8rem;
     font-weight: bold;
     color: #7e0a0a;
 
+}
+
+#interface table {
+    margin: auto;
+    background-color: #111;
+    border: 6px solid #111;
+    border-radius: 5px;
 }
 
 #interface table #bt-plus,
